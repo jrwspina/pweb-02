@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8" />
+    <title>Travel photos</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="topHeaderRow">
+            <div class="container-fluid">
+                <div>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i> Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-star"></i> Favorites</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end topHeaderRow -->
+
+        <nav class="navbar navbar-dark navbar-expand-md sticky-top p-4">
+            <div class="container-fluid" id="mainNavbar">
+                <a href="#" class="navbar-brand" id="navbar_logo">Share Your Travels</a>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mr-auto" id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-2"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item mx-2"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item mx-2"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Browse
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">Countries</a></li>
+                                <li class="dropdown-item"><a href="#">Images</a></li>
+                                <li class="dropdown-item"><a href="#">Posts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline ml-5 my-2 my-lg-0">
+                        <div>
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+                        </div>
+                        <button class="btn my-2 my-sm-0 pinkBtn" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <main>
+        <div class="container-fluid p-4">
+            <div class="row">
+                <div class="col-md-2 mb-3">
+                    <aside>
+                        <div class="list-group pb-3">
+                            <div class="list-group-item sideBarTop">Continents</div>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">Africa</a></li>
+                                <li class="list-group-item"><a href="#">Asia</a></li>
+                                <li class="list-group-item"><a href="#">Europe</a></li>
+                                <li class="list-group-item"><a href="#">North America</a></li>
+                                <li class="list-group-item"><a href="#">South America</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="list-group">
+                            <div class="list-group-item sideBarTop">Popular</div>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">Canada</a></li>
+                                <li class="list-group-item"><a href="#">France</a></li>
+                                <li class="list-group-item"><a href="#">Italy</a></li>
+                                <li class="list-group-item"><a href="#">Germany</a></li>
+                                <li class="list-group-item"><a href="#">Ghana</a></li>
+                                <li class="list-group-item"><a href="#">Greece</a></li>
+                                <li class="list-group-item"><a href="#">Hungary</a></li>
+                                <li class="list-group-item"><a href="#">Spain</a></li>
+                                <li class="list-group-item"><a href="#">United States</a></li>
+                                <li class="list-group-item"><a href="#">United Kingdom</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <figure>
+                                <img src="images/8711645510.jpg" alt="Temple of Hephaistos" id="main_picture" />
+                                <figcaption>
+                                    Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is the
+                                    best preserved temple of antiquity.
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h2>Temple of Hephaistos</h2>
+
+                            <div>
+                                <div class="card pt-4 pl-3 pb-2">
+                                    <ul>
+                                        <li>
+                                            By:
+                                            <a href="#">Ellie Sullivan</a>
+                                        </li>
+                                        <li>
+                                            Country:
+                                            <a href="#">Greece</a>
+                                        </li>
+                                        <li>
+                                            City:
+                                            <a href="#">Athens</a>
+                                        </li>
+                                        <li>Taken on: August 8, 2017</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="buttonGroup btn-group d-flex mb-3">
+                                <div>
+                                    <button type="button"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <div>
+                                    <button type="button"><i class="fas fa-download"></i></button>
+                                </div>
+                                <div>
+                                    <button type="button"><i class="fas fa-print"></i></button>
+                                </div>
+                                <div>
+                                    <button type="button"><i class="fas fa-comment-alt"></i></button>
+                                </div>
+                            </div>
+
+                            <h4>Tags</h4>
+                            <div class="card p-3 mb-5">
+                                <div id="tags">
+                                    <span class="badge">ancient</span>
+                                    <span class="badge">garden</span>
+                                    <span class="badge">hill</span>
+                                    <span class="badge">ruins</span>
+                                    <span class="badge">sunshine</span>
+                                    <span class="badge">temple</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Related Photos</h3>
+                    </div>
+
+                    <!-- Related Photos -->
+                    <div class="row d-flex justify-content-between px-3">
+                        <div class="relatedPhoto card mb-4">
+                            <div>
+                                <a href="#"><img src="images/related/8710320515.jpg" alt="" /></a>
+                                <div>
+                                    <h6>Ekklisia Agii Isidori</h6>
+                                    <button class="btn blueBtn" type="button"><i class="fas fa-eye"></i> View
+                                    </button>
+                                    <button class="btn pinkBtn" type="button"><i class="fas fa-heart"></i> Favorite
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relatedPhoto card mb-3">
+                            <div>
+                                <a href="#"><img src="images/related/8710513053.jpg" alt="" /></a>
+                                <div>
+                                    <h6>Theatre of Dionysos</h6>
+                                    <button class="btn blueBtn" type="button"><i class="fas fa-eye"></i> View</button>
+                                    <button class="btn pinkBtn" type="button"><i class="fas fa-heart"></i>
+                                        Favorite</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relatedPhoto card mb-3">
+                            <div>
+                                <a href="#"><img src="images/related/8711623884.jpg" alt="" /></a>
+                                <div class="caption">
+                                    <h6>Roman Agora</h6>
+                                    <button class="btn blueBtn" type="button"><i class="fas fa-eye"></i> View</button>
+                                    <button class="btn pinkBtn" type="button"><i class="fas fa-heart"></i>
+                                        Favorite</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relatedPhoto card mb-3">
+                            <div>
+                                <a href="#"><img src="images/related/9498388516.jpg" alt="" /></a>
+                                <div>
+                                    <h6>Temple of Asclepius</h6>
+                                    <button class="btn blueBtn" type="button"><i class="fas fa-eye"></i> View</button>
+                                    <button class="btn pinkBtn" type="button"><i class="fas fa-heart"></i>
+                                        Favorite</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row p-4">
+                <div class="col-md-6 pr-5">
+                    <h4>Share Your Travels</h4>
+                    <p>
+                        This is a case study from the textbook
+                        <em>Fundamentals of Web Development</em>
+                        . This book is published by Pearson Ed, and is the only
+                        textbook that covers the essentials of the entire field
+                        of contemporary web development.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <h5 class="mb-sm-3">Headquarters</h5>
+                            Mount Royal University
+                            <br />
+                            4825 Mount Royal Gate SW
+                            <br />
+                            Calgary, Canada, T3E 6K6
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5 class="mb-sm-3">Follow Us</h5>
+                            <div class="followBtn">
+                                <button class="btn pinkBtn" type="button"><i class="fas fa-camera fa-lg"></i>
+                                </button>
+                                <button class="btn purpleBtn" type="button"><i class="fas fa-user fa-lg"></i>
+                                </button>
+                                <button class="btn blueBtn" type="button"><i class="fas fa-tags fa-lg"></i></button>
+                                <button class="btn pink2Btn" type="button"><i class="fas fa-bookmark fa-lg"></i>
+                                </button>
+                                <button class="btn redBtn" type="button"><i class="fas fa-fire fa-lg"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3"><i class="fas fa-pencil-alt"></i> Recent Posts</h5>
+                    <div class="media">
+                        <a href="#">
+                            <img class="rounded-circle" src="images/footer/6592294487.jpg" alt="..." />
+                        </a>
+                        <div class="media-body">
+                            <p><a href="#">Calgary in the Snow</a></p>
+                            <em>5 minutes ago</em>
+                            <hr />
+                        </div>
+                    </div>
+
+                    <div class="media">
+                        <a href="#">
+                            <img class="rounded-circle" src="images/footer/6114904363.jpg" alt="..." />
+                        </a>
+                        <div class="media-body">
+                            <p><a href="#">Mountain Climbing</a></p>
+                            <em>11 minutes ago</em>
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a href="#">
+                            <img class="rounded-circle" src="images/footer/5856697109.jpg" alt="..." />
+                        </a>
+                        <div class="media-body">
+                            <p><a href="#">Nova Scotia</a></p>
+                            <em>23 minutes ago</em>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5><i class="fas fa-envelope"></i> Contact us</h5>
+                    <form role="form">
+                        <div>
+                            <label class="sr-only" for="name">Name</label>
+                            <input type="text" name="email" placeholder="Enter name ..." id="name" />
+                        </div>
+                        <div>
+                            <label class="sr-only" for="email">Email</label>
+                            <input type="email" name="email" placeholder="Enter email ..." id="email" />
+                        </div>
+                        <div>
+                            <label class="sr-only" for="email">Email</label>
+                            <textarea rows="3" placeholder="Enter message ..."></textarea>
+                        </div>
+                        <button class="btn pinkBtn" type="submit" id="submitBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row p-2" id="footerBottom">
+                <div class="col-md-12">
+                    <p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
+                    <p>
+                        <a href="#">Home</a>
+                        /
+                        <a href="#">About</a>
+                        /
+                        <a href="#">Contact</a>
+                        /
+                        <a href="#">Browse</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js<!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8" />
+            <title>Travel photos</title>
+        
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+                integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+        
+            <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
+            <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        
+            <link rel="stylesheet" href="css/style.css" />
+        </head>
+        
+        <body>
+            <header>
+                <div class="topHeaderRow">
+                    <div class="container-fluid">
+                        <div>
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i> Profile</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-star"></i> Favorites</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end topHeaderRow -->
+        
+                <nav class="navbar navbar-dark navbar-expand-md sticky-top p-4">
+                    <div class="container-fluid" id="mainNavbar">
+                        <a href="#" class="navbar-brand" id="navbar_logo">Share Your Travels</a>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse mr-auto" id="navbarResponsive">
+                            <ul class="navbar-nav">
+                                <li class="nav-item mx-2"><a class="nav-link" href="#">Home</a></li>
+                                <li class="nav-item mx-2"><a class="nav-link" href="#">About</a></li>
+                                <li class="nav-item mx-2"><a class="nav-link" href="#">Contact</a></li>
+                                <li class="nav-item dropdown mx-2">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Browse
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item"><a href="#">Countries</a></li>
+                                        <li class="dropdown-item"><a href="#">Images</a></li>
+                                        <li class="dropdown-item"><a href="#">Posts</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+        
+                            <form class="form-inline ml-5 my-2 my-lg-0">
+                                <div>
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+                                </div>
+                                <button class="btn my-2 my-sm-0 pinkBtn" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        
+            <!-- Page Content -->
+            <main>
+                <div class="container-fluid p-4">
+                    <div class="row">
+                        <div class="col-md-2 mb-3">
+                            <aside>
+                                <div class="list-group pb-3">
+                                    <div class="list-group-item sideBarTop">Continents</div>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Africa</a></li>
+                                        <li class="list-group-item"><a href="#">Asia</a></li>
+                                        <li class="list-group-item"><a href="#">Europe</a></li>
+                                        <li class="list-group-item"><a href="#">North America</a></li>
+                                        <li class="list-group-item"><a href="#">South America</a></li>
+                                    </ul>
+                                </div>
+        
+                                <div class="list-group">
+                                    <div class="list-group-item sideBarTop">Popular</div>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Canada</a></li>
+                                        <li class="list-group-item"><a href="#">France</a></li>
+                                        <li class="list-group-item"><a href="#">Italy</a></li>
+                                        <li class="list-group-item"><a href="#">Germany</a></li>
+                                        <li class="list-group-item"><a href="#">Ghana</a></li>
+                                        <li class="list-group-item"><a href="#">Greece</a></li>
+                                        <li class="list-group-item"><a href="#">Hungary</a></li>
+                                        <li class="list-group-item"><a href="#">Spain</a></li>
+                                        <li class="list-group-item"><a href="#">United States</a></li>
+                                        <li class="list-group-item"><a href="#">United Kingdom</a></li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+        
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-8 mb-3">
+                                    <figure>
+                                        <img src="images/8711645510.jpg" alt="Temple of Hephaistos" id="main_picture" />
+                                        <figcaption>
+                                            Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is the
+                                            best preserved temple of antiquity.
+                                        </figcaption>
+                                    </figure>
+                                </div>
+        
+                                <div class="col-md-4">
+                                    <h2>Temple of Hephaistos</h2>
+        
+                                    <div>
+                                        <div class="card pt-4 pl-3 pb-2">
+                                            <ul>
+                                                <li>
+                                                    By:
+                                                    <a href="#">Ellie Sullivan</a>
+                                                </li>
+                                                <li>
+                                                    Country:
+                                                    <a href="#">Greece</a>
+                                                </li>
+                                                <li>
+                                                    City:
+                                                    <a href="#">Athens</a>
+                                                </li>
+                                                <li>Taken on: August 8, 2017</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+        
+                                    <div class="buttonGroup btn-group d-flex mb-3">
+                                        <div>
+                                            <button type="button"><i class="fas fa-heart"></i></button>
+                                        </div>
+                                        <div>
+                                            <button type="button"><i class="fas fa-download"></i></button>
+                                        </div>
+                                        <div>
+                                            <button type="button"><i class="fas fa-print"></i></button>
+                                        </div>
+                                        <div>
+                                            <button type="button"><i class="fas fa-comment-alt"></i></button>
+                                        </div>
+                                    </div>
+        
+                                    <h4>Tags</h4>
+                                    <div class="card p-3 mb-5">
+                                        <div id="tags">
+                                            <span class="badge">ancient</span>
+                                            <span class="badge">garden</span>
+                                            <span class="badge">hill</span>
+                                            <span class="badge">ruins</span>
+                                            <span class="badge">sunshine</span>
+                                            <span class="badge">temple</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div>
+                                <h3>Related Photos</h3>
+                            </div>
+        
+                            <!-- Related Photos -->
+                            <div class="row d-flex justify-content-between px-3">
+                                <div class="relatedPhoto card mb-4">
+                                    <div>
+                                        <a href="#"><img src="images/related/8710320515.jpg" alt="" /></a>
+                                        <div>
+                                            <h6>Ekklisia Agii Isidori</h6>
+                                            <button class="btn blueBtn" type="button"><i class="fas fa-eye"></i> View
+                                            </button>
+                                            <button class="btn pinkBtn" type="button"><i class="fas fa-heart"></i> Favorite
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="relatedPhoto card mb-3">
+                                    <div>
+                                        <a href="#"><img src="images/related/8710513053.jpg" alt="" /></a>
+                                        <div>
+                                            <h6>Theatre of Dionysos</h6>
+                                            <button class="btn blueBtn" type="button"><i class="fas fa-eye"></i> View</button>
+                                            <button class="btn pinkBtn" type="button"><i class="fas fa-heart"></i>
+                                                Favorite</button>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="relatedPhoto card mb-3">
+                                    <div>
+                                        <a href="#"><img src="images/related/8711623884.jpg" alt="" /></a>
+                                        <div class="caption">
+                                            <h6>Roman Agora</h6>
+                                            <button class="btn blueBtn" type="button"><i class="fas fa-eye"></i> View</button>
+                                            <button class="btn pinkBtn" type="button"><i class="fas fa-heart"></i>
+                                                Favorite</button>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="relatedPhoto card mb-3">
+                                    <div>
+                                        <a href="#"><img src="images/related/9498388516.jpg" alt="" /></a>
+                                        <div>
+                                            <h6>Temple of Asclepius</h6>
+                                            <button class="btn blueBtn" type="button"><i class="fas fa-eye"></i> View</button>
+                                            <button class="btn pinkBtn" type="button"><i class="fas fa-heart"></i>
+                                                Favorite</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        
+            <footer>
+                <div class="container-fluid">
+                    <div class="row p-4">
+                        <div class="col-md-6 pr-5">
+                            <h4>Share Your Travels</h4>
+                            <p>
+                                This is a case study from the textbook
+                                <em>Fundamentals of Web Development</em>
+                                . This book is published by Pearson Ed, and is the only
+                                textbook that covers the essentials of the entire field
+                                of contemporary web development.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <h5 class="mb-sm-3">Headquarters</h5>
+                                    Mount Royal University
+                                    <br />
+                                    4825 Mount Royal Gate SW
+                                    <br />
+                                    Calgary, Canada, T3E 6K6
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <h5 class="mb-sm-3">Follow Us</h5>
+                                    <div class="followBtn">
+                                        <button class="btn pinkBtn" type="button"><i class="fas fa-camera fa-lg"></i>
+                                        </button>
+                                        <button class="btn purpleBtn" type="button"><i class="fas fa-user fa-lg"></i>
+                                        </button>
+                                        <button class="btn blueBtn" type="button"><i class="fas fa-tags fa-lg"></i></button>
+                                        <button class="btn pink2Btn" type="button"><i class="fas fa-bookmark fa-lg"></i>
+                                        </button>
+                                        <button class="btn redBtn" type="button"><i class="fas fa-fire fa-lg"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <h5 class="mb-3"><i class="fas fa-pencil-alt"></i> Recent Posts</h5>
+                            <div class="media">
+                                <a href="#">
+                                    <img class="rounded-circle" src="images/footer/6592294487.jpg" alt="..." />
+                                </a>
+                                <div class="media-body">
+                                    <p><a href="#">Calgary in the Snow</a></p>
+                                    <em>5 minutes ago</em>
+                                    <hr />
+                                </div>
+                            </div>
+        
+                            <div class="media">
+                                <a href="#">
+                                    <img class="rounded-circle" src="images/footer/6114904363.jpg" alt="..." />
+                                </a>
+                                <div class="media-body">
+                                    <p><a href="#">Mountain Climbing</a></p>
+                                    <em>11 minutes ago</em>
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a href="#">
+                                    <img class="rounded-circle" src="images/footer/5856697109.jpg" alt="..." />
+                                </a>
+                                <div class="media-body">
+                                    <p><a href="#">Nova Scotia</a></p>
+                                    <em>23 minutes ago</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h5><i class="fas fa-envelope"></i> Contact us</h5>
+                            <form role="form">
+                                <div>
+                                    <label class="sr-only" for="name">Name</label>
+                                    <input type="text" name="email" placeholder="Enter name ..." id="name" />
+                                </div>
+                                <div>
+                                    <label class="sr-only" for="email">Email</label>
+                                    <input type="email" name="email" placeholder="Enter email ..." id="email" />
+                                </div>
+                                <div>
+                                    <label class="sr-only" for="email">Email</label>
+                                    <textarea rows="3" placeholder="Enter message ..."></textarea>
+                                </div>
+                                <button class="btn pinkBtn" type="submit" id="submitBtn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row p-2" id="footerBottom">
+                        <div class="col-md-12">
+                            <p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
+                            <p>
+                                <a href="#">Home</a>
+                                /
+                                <a href="#">About</a>
+                                /
+                                <a href="#">Contact</a>
+                                /
+                                <a href="#">Browse</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        </body>
+        
+        </html>

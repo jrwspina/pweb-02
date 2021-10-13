@@ -1,0 +1,187 @@
+/* All */
+
+body {
+    font-family: 'Open Sans';
+    background-color: #e9ebf7;
+}
+
+/* Header Row */
+
+.topHeaderRow {
+    font-size: 0.8em;
+    justify-content: right;
+    background: #2b2f78;
+}
+
+.topHeaderRow a {
+    color: white;
+}
+
+/* Nav */
+
+.navbar {
+    background-color: #324098;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#navbar_logo {
+    font-family: Lobster;
+    font-size: 2em;
+    color: white;
+}
+
+/* Buttons */
+
+.pinkBtn {
+    background-color: #ec4f90;
+    color: white;
+}
+
+.blueBtn {
+    background-color: #56b3e2;
+    color: white;
+}
+
+.purpleBtn {
+    background-color: #2b2f79;
+    color: white;
+}
+
+.pink2Btn {
+    background-color: #c71d66;
+    color: white;
+}
+
+.redBtn {
+    background-color: #e41860;
+    color: white;
+}
+
+/* Sidebar */
+
+.list-group-item {
+    border-style: solid; 
+    border-width: 1px;
+    border-color: black;
+    border-radius: 0 !important;
+    padding: 0.5em 1em;
+}
+
+.sideBarTop {
+    background-color: #2b2f78;
+    color: white;
+}
+
+/* Main Content */
+
+#main_picture {
+    width: 100%;
+}
+
+/* Card Content */
+
+.card ul, li {
+    padding-left: 0;
+    list-style: none;
+}
+
+.buttonGroup {
+    width: 100%;
+}
+
+.buttonGroup div {
+    width: 25%;
+}
+
+.buttonGroup div button {
+    width: 100%;
+    background-color: white;
+    margin: 1em 0;
+    padding: 0.2em 0;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.333);
+}
+
+/* Tags */
+
+.badge {
+    background-color: #404c98;
+    color: white;
+    border-radius: 2px !important;
+    padding: 0.5em;
+}
+
+/* Related Photos */
+
+.relatedPhoto {
+    padding: 1em 2em;
+    text-align: center;
+    background-color: #e9ebf7;
+}
+
+.relatedPhoto img {
+    width: 100%;
+}
+
+.relatedPhoto h6 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Footer General */
+
+footer {
+    background-color: #324099;
+    color: white;
+}
+
+footer hr {
+    background-color: white;
+}
+
+/* Footer Contact */
+
+footer input, footer textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+#submitBtn {
+    padding: 0.6em;
+    width: 100%;
+    font-size: large;
+}
+
+#footerBottom {
+    text-align: center;
+    background-color: #2b2f78;
+    color: white;
+}
+
+/* Footer Buttons */
+
+.followBtn button {
+    width: 70px;
+    height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Footer Medias */
+
+.media img {
+    align-items: center;
+}
+
+.media div {
+    padding-left: 1em;
+}
+
+.media div p{
+    margin-bottom: 0.5em;
+}
